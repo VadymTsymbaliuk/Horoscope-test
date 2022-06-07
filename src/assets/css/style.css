@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #315DFA
+}
+
+html, body {
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2 {
+    font-size: 20px;
+}
+
+h2 {
+    color: var(--blue);
+}
+
+header {
+    background-color: var(--blue);
+    color: white;
+}
+
+header p {
+    font-weight: 700;
+}
+
+.container {
+    padding: 18px 0;
+    max-width: 623px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+}
+
+section .img-container {
+    height: 344px;
+    text-align: left;
+    background-image: url('../images/sec_bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+section .text__container {
+    padding-top: 18px;
+    padding-bottom: 43px;
+    text-align: left;
+}
+
+.text__container h2 {
+    padding: 22px 0;
+}
+
+.text__container p {
+    padding-top: 22px;
+    padding-bottom: 43px;
+}
+
+button {
+    padding: 17px 11px;
+    background-color: var(--blue);
+    border: none;
+    color: #fff;
+    width: 186px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+button:active {
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+footer {
+    text-align: center;
+    text-transform: lowercase
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #D6D6D6;
+}
