@@ -69,6 +69,31 @@ section .text__container {
     padding-top: 22px;
     padding-bottom: 43px;
 }
+.poll__container .form-group__container{
+    margin-bottom: 13px;
+}
+.poll__container  h2{
+    padding: 16px 41px;
+    background-color: #343B4D;
+    color: #fff;
+}
+.poll__container form .form-group__container{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    background-color: #F3F4F8;
+}
+.poll__container form .form-group__container .form-group{
+    display: flex;
+    align-items: center;
+}
+
+
+.poll__container form .form-group__container input[type="radio"]{
+    width: 28px;
+    height: 28px;
+    margin-right: 21px;
+}
 
 button {
     padding: 17px 11px;

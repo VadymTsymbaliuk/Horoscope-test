@@ -1,10 +1,13 @@
 <template>
-<button>Далее</button>
+
 </template>
 
 <script>
 export default {
-  name: "Button"
+  name: "Button",
+  props:{
+    type: String
+  }
 }
 </script>
 

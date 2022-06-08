@@ -14,19 +14,19 @@
             из нас.</p>
         </div>
         <VPoll/>
-        <VButton/>
+
       </section>
     </div>
   </main>
 </template>
 
 <script>
-import VButton from "@/components/VButton";
+
 import VPoll from "@/components/VPoll";
 
 export default {
   name: "Main",
-  components: {VButton, VPoll}
+  components: { VPoll}
 }
 </script>
 
